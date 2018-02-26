@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jason",
+      "age": "19",
+      "genre": "M"
+    },
+    {
+      "id": 2,
+      "name": "Roberto",
+      "age": "9",
+      "genre": "M"
+    },
+    {
+      "id": 3,
+      "name": "Oliver",
+      "age": "20",
+      "genre": "M"
+    },
+    {
+      "id": 4,
+      "name": "Ciaran",
+      "age": "10",
+      "genre": "M"
+    },
+    {
+      "id": 4,
+      "name": "Aoife",
+      "age": "21",
+      "genre": "F"
+    },
+    {
+      "id": 4,
+      "name": "Niamh",
+      "age": "23",
+      "genre": "F"
+    },
+    {
+      "id": 4,
+      "name": "Aideen",
+      "age": "19",
+      "genre": "F"
+    }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment" },
+    { "id": 2, "body": "some comment 2" },
+    { "id": 3, "body": "some comment 3" },
+    { "id": 4, "body": "some comment 4" }
+  ]
+}

@@ -1,0 +1,32 @@
+<h1 ng-if="homeCtrl.waiting">WAITING</h1>
+<table ng-if="!homeCtrl.waiting">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Genre</th>
+            <th>Age</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="user in homeCtrl.users">
+            <td>{{user.name}}</td>
+            <td>{{user.genre}}</td>
+            <td>{{user.age}}</td>
+            <td>{{user.description}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<table ng-if="!homeCtrl.waiting">
+    <thead>
+        <tr>
+            <th>Comment</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="comment in homeCtrl.comments">
+            <td>{{comment.body}}</td>
+        </tr>
+    </tbody>
+</table>
